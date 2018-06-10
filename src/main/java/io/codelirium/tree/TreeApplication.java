@@ -11,6 +11,7 @@ import java.util.concurrent.ScheduledExecutorService;
 
 import static io.codelirium.tree.util.Util.getNumberOfCpus;
 import static io.codelirium.tree.util.Util.getRandomString;
+import static java.lang.System.out;
 import static java.util.concurrent.Executors.newScheduledThreadPool;
 import static java.util.concurrent.Executors.newSingleThreadExecutor;
 import static java.util.concurrent.TimeUnit.SECONDS;
@@ -33,7 +34,7 @@ public class TreeApplication implements CommandLineRunner {
 		final Tree<String> root = new Tree<>(getRandomString());
 
 
-		System.out.println("Starting tree expansion ...");
+		out.println("Starting tree expansion ...");
 
 		final StringTreeExpander stringTreeExpander = new StringTreeExpander(1, root, 20, 10000);
 
