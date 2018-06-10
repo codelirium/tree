@@ -47,8 +47,8 @@ public class TreeApplication implements CommandLineRunner {
 
 		final ScheduledExecutorService consumerExecutor = newScheduledThreadPool(getNumberOfCpus());
 
-		consumerExecutor.scheduleAtFixedRate(treeNodeCounterOne,  0, 1, SECONDS);
-		consumerExecutor.scheduleAtFixedRate(treeNodeCounterTwo,  0, 2, SECONDS);
-		consumerExecutor.scheduleAtFixedRate(treeNodeCounterThree,0, 3, SECONDS);
+		consumerExecutor.scheduleAtFixedRate(treeNodeCounterOne,   0, 1, SECONDS);
+		consumerExecutor.scheduleAtFixedRate(treeNodeCounterTwo,   0, 2, SECONDS);
+		consumerExecutor.scheduleAtFixedRate(treeNodeCounterThree, 0, 3, SECONDS);
 	}
 }
