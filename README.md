@@ -5,6 +5,6 @@ In a concurrent environment, one job is building (expanding) a tree data structu
 
     $ mvn clean package
 
-### To run example #1:
+### To run:
 
     $ java -jar target/tree-0.0.1-SNAPSHOT.jar
