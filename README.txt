@@ -1,6 +1,3 @@
-In a concurrent environment, one job is building (expanding) a tree data structure, where all other jobs are dumping periodically the current number of nodes.
-
-
 # tree
 In a concurrent environment, one job is building (expanding) a tree data structure, where all other jobs are dumping periodically the current number of nodes.
 
