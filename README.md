@@ -7,4 +7,4 @@ In a concurrent environment, one job is building (expanding) a tree data structu
 
 ### To run:
 
-    $ java -jar target/tree-0.0.1-SNAPSHOT.jar
+    $ java -jar target/tree-0.0.1-SNAPSHOT.jar -Xmx512m
